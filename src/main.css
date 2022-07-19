@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply dark:bg-cornflower-blue-900 dark:text-concrete-300;
+    @apply font-sans text-base;
+    @apply w-full min-h-full;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-extrabold;
+  }
+}

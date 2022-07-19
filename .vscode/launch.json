@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "request": "attach",
+      "type": "chrome",
+      "webRoot": "${workspaceFolder}/src"
+    },
+    {
+      "name": "Launch Chrome",
+      "request": "launch",
+      "runtimeExecutable": "/Applications/Google Chrome Dev.app/Contents/MacOS/Google Chrome Dev",
+      "type": "chrome",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+    }
+  ]
+}
